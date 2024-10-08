@@ -1,1 +1,5 @@
-console.log("Hola como estas")
+numA = 30
+numB = 20
+
+res = numB + numA
+console.log(res)
