@@ -1,5 +1,12 @@
-numA = 30
-numB = 20
+function sumarElementos(numeros) {
+    let suma = 0;
 
-res = numB + numA
-console.log(res)
+    for (let i = 0; i < numeros.length; i++) { // Error aquí
+        suma += numeros[i];
+    }
+
+    return suma;
+}
+
+const resultado = sumarElementos([1, 2, 3, 4, 5]);
+console.log("La suma es:", resultado);
